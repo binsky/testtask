@@ -1,0 +1,58 @@
+h1 {
+    background-color: lightgray;
+    text-align: left;
+    padding: 5px;
+    height: 100px;
+}
+
+.container {
+    min-width: 600px;
+    width: 100%;
+    display: table;
+    padding-bottom: 40px;
+}
+
+#sbtoggle {
+    position: relative;
+    width: 120px;
+    left: 50%;
+    margin: 10px 10px 10px -60px;
+}
+
+.sidebar {
+    width: 300px;
+    display: table-cell;
+    padding-right: 10px;
+}
+
+#content {
+    display:  table-cell;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.full {
+    width: 100%;
+    float: left;
+}
+
+a:link {
+    color: lawngreen;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: #FF00FF;
+}
